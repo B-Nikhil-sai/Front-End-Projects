@@ -1,0 +1,56 @@
+body
+{
+    font-family:"Comic Sans MS", sans-serif;
+}
+header{
+    text-align: center;
+    color: black;
+    text-shadow: 0px 0px 5px red;
+}
+fieldset{
+    background-color: brown;
+    height:650px;
+    margin-bottom: 20px;
+    border-radius: 0px 20px 0px 20px;
+}
+legend,input[type="submit"]
+{
+    padding:10px;
+    color:white;
+    background:linear-gradient(45deg,rgb(32, 2, 2),rgb(124, 8, 8));
+    border-radius: 0px 10px 0px 10px;
+}
+
+table{
+    width:100%;
+    color:white;
+}
+input[type="text"],input[type="number"],input[type="Date"],input[type="month"],input[type="checkbox"],textarea,select,input[type="time"]
+{
+    border: none;
+    outline: none;
+    padding:12px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+textarea
+{
+    padding:15px;
+}
+#two
+{
+    height:250px
+}
+#three
+{
+    height: 300px;
+}
+#four
+{
+    height: 400px;
+}
+
+#four td
+{
+    padding: 10px;
+}
